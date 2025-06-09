@@ -1,0 +1,21 @@
+body {
+  font-family: $font-family-sans-serif;
+  color: $primary-text;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif; // Or keep sans-serif if preferred
+  color: $primary-text;
+  margin-top: $spacing-unit * 3;
+  margin-bottom: $spacing-unit * 2;
+  font-weight: 600;
+}
+
+a {
+  color: $accent-color-1;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

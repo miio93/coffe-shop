@@ -1,0 +1,31 @@
+// Basic Reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $primary-bg;
+  font-size: 16px; // Base font size
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $spacing-unit * 2;
+  padding-right: $spacing-unit * 2;
+}
